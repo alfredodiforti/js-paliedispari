@@ -25,14 +25,13 @@ console.log('la somma dei numeri è : ' +  somma);
 function valutazionepariodispari(sceltautente) {
   if (somma % 2 == 0 && sceltautente == 'pari' || somma % 2 != 0  && sceltautente == 'dispari') {
     var vittoriautente = 'il giocatore ha vinto contro il computer!';
-    console.log(vittoriautente);
     return vittoriautente;
   }
   else {
     var vittoriapc = 'ha vinto il pc riprovaci amico';
-    console.log(vittoriapc);
     return vittoriapc;
   }
 }
 
 var decretovincitore = valutazionepariodispari(scelta);
+console.log(decretovincitore);
